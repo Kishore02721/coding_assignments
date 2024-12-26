@@ -1,2 +1,2 @@
 # coding_assignments
-Assignments for C, C++ and python programming languages are present here
+Assignment questions and answers for C, C++ and python programming languages are present here
