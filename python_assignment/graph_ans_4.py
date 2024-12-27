@@ -19,6 +19,7 @@ plt.bar(months, bathing_soap, color='b', label='Bathing soap sales data')
 plt.xlabel('Month number')
 plt.ylabel('Sales units in number')
 plt.title('Bathing Soap sales data')
+plt.grid(True)
 plt.show()
 #to save figure
 plt.savefig('my_plot.png')
