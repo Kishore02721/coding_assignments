@@ -6,9 +6,14 @@
 void ascending_order_array(int array_pointer[], int size_of_array);
 
 int main(){
-	int array[] {6,5,4,3,2,1};
 	int array_size  {0};
-	array_size = sizeof(array)/sizeof(array[0]);//to get size of array
+    std::cout<<"Enter size of array: ";
+    std::cin>>array_size;
+    int array[array_size];
+    std::cout<<"Enter the element of array\n";
+	for(int i = 0; i < array_size; i++){
+        std::cin>>array[i];
+    }
 	ascending_order_array(array,array_size);//Function call
 	return 0;
 }
