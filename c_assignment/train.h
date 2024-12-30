@@ -10,7 +10,6 @@
 #define FILE_TRAIN_DB "train_data.txt" // Define the file for train data
 #define FILE_PASSENGER_DB "passenger_data.txt" // Define the file for passenger data
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
