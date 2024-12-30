@@ -18,8 +18,6 @@ struct Node {
 void add_node(Node*& head, int data);
 // Function to print the linked list
 void print_linked_list(Node* head);
-// Function to print the linked list
-void print_linked_list(Node* head);
 // Function to perform Bubble Sort on the linked list
 void bubbleSort(Node* head);
 
