@@ -6,7 +6,8 @@ forms */
 using namespace std;
 
 //structure for a binary tree node
-struct Node {
+class Node {
+public:
         int data;
         Node* left;
         Node* right;
