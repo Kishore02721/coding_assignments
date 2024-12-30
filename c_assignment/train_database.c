@@ -55,7 +55,7 @@ void load_passenger_data() {
 void save_passenger_data() {
 	FILE *passenger_data_file = fopen(FILE_PASSENGER_DB, "w");//to open file for writing
 	//if file exist we proceed for saving
-	if (file) {
+	if (passenger_data_file) {
 		//save all train details
 		for (int i = 0; i < total_passengers; i++) {
 			fprintf(passenger_data_file, "%d %s %d %d\n",
